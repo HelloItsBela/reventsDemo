@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Button } from 'semantic-ui-react';
 
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
 return (
     <div className="App">
     <h1>Re-vents</h1>
+    <EventDash
     </div>
   );
   } 
