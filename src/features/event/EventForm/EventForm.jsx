@@ -102,4 +102,7 @@ onFormSubmit = values => {
   }
 }
 
-export default connect( mapState,actions)(reduxForm({form: 'eventForm', validate })(EventForm));;
+export default connect(
+  mapState,
+  actions
+)(reduxForm({ form: 'eventForm', validate })(EventForm));

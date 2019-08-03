@@ -11,7 +11,7 @@ import { Form, Select, Label } from 'semantic-ui-react';
             options={options}
             multiple={multiple}
         />
-        {touched && error && <Label basic color='red'>{error}</Label>}
+        {touched && error && <Label basic color='red'  >{error}</Label>}
     </Form.Field>
     );
 };
